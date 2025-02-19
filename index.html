@@ -1,0 +1,665 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <header class="top-0 left-0 w-full bg-[#fcfdfd] shadow-sm z-10 fixed ">
+        <div class="container mx-auto flex items-center justify-between py-4 w-full relative px-4 lg;px-0">
+            <!-- Logo & Nama -->
+            <div class="flex items-center space-x-3 ">
+                <img src="./src/img/1.jpg" alt="Logo" class="w-8 h-8">
+                <span class="text-xl font-semibold">Prodmast</span>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav id="nav-menu" class="hidden">
+                <ul class="flex space-x-8 text-gray-700 font-medium ">
+                    <li><a href="#" class="hover:text-black">Home</a></li>
+                    <li><a href="#" class="hover:text-black">About</a></li>
+                    <li><a href="#" class="hover:text-black">Services</a></li>
+                    <li><a href="#" class="hover:text-black">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Tombol Sign Up -->
+            <a href="#"
+                class="px-6 py-3 bg-[#142F32] text-white rounded-full text-sm font-medium hover:text-slate-100 hover:shadow-lg">Sign
+                Up</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <div class="container max-w-full pb-30 lg:pb-120 pt-15 mx-auto bg-[#f5f7f9] w-full
+    lg:relative mt-10">
+        <div class="pb-9">
+            <h1 class="text-center lg:text-5xl  md:text-4xl  font-bold lg:px-100 pb-6 text-xl" data-aos="zoom-in-up"
+                data-aos-duration="1000">The Future of Manufacturing with <span class="text-[#142F32]"
+                    data-aos="zoom-in-up " data-aos-duration="1000"> Latest Technology </span> </h1>
+            <p class="lg:text-sm font-medium text-slate-500 text-center text-xs " data-aos="zoom-in"
+                data-aos-duration="1000">Expert tect to elevate your manufacturing . let's
+                take your business further </p>
+        </div>
+
+        <div class="mt-2 mx-auto text-center space-x-2" data-aos="fade-up" data-aos-duration="1000">
+            <a href="" class="py-3 px-5  bg-[#142F32] rounded-full text-white items-center">Get Started</a>
+            <a href=""
+                class="py-3 px-5  bg-white text-[#142F32] rounded-full items-center font-semibold border-gray-500 ">Try
+                Demo</a>
+        </div>
+
+        <!-- rating -->
+        <div class="mt-8 mx-auto text-center" data-aos="fade-down" data-aos-duration="1000">
+            <p class="font-bold "> ⭐⭐⭐⭐⭐ 5.0 </p>
+            <p> <span class="text-slate-500 ">from 80+ </span> reviews</p>
+        </div>
+
+        <!-- Stats Section -->
+        <div
+            class="container mx-auto max-w-full grid lg:grid-cols-5 lg:gap-10 gap-4 px-25 items-end lg:absolute lg:bottom-1/6 ">
+            <!-- Kolom 1: Gambar Besar -->
+            <div class="bg-white rounded-2xl shadow-lg col-span-1 h-[120px] lg:h-[400px] mt-7" data-aos="fade-right"
+                data-aos-delay="0">
+                <img src="src/img/2.png" class="w-full h-full object-cover rounded-3xl">
+            </div>
+
+            <!-- Kolom 2: Gambar Kecil -->
+            <div class="bg-[#142F32] rounded-2xl shadow-lg col-span-1 h-[100px] lg:h-[300px] text-center items-center flex flex-col justify-center text-white"
+                data-aos="fade-right" data-aos-delay="300" animation-duration="1000">
+                <p class="lg:text-4xl text-2xl font-semibold">100+</p>
+                <p class="px-5 lg:px-20 mt-3 text-slate-300 text-xs lg:text-sm">Our Esteended Client and Partners </p>
+            </div>
+
+            <!-- Kolom 3: Kotak Tengah -->
+            <div class="bg-white p-4 rounded-2xl shadow-lg flex flex-col justify-center col-span-1 h-[90px] lg:h-[170px] text-center "
+                data-aos="fade-up" data-aos-delay="500" animation-duration="1000">
+                <p class="lg:text-xl font-bold text-xs">Total Projects</p>
+                <p class="lg:text-2xl font-bold text-lg">1951+</p>
+                <p class="text-green-500 text-xs lg:text-base">Increase of 126 this month</p>
+            </div>
+
+            <!-- Kolom 4: Gambar Kecil -->
+            <div class="bg-[#E3FFCC] rounded-2xl shadow-lg col-span-1 h-[100px] lg:h-[300px] text-center items-center flex flex-col justify-center text-slate-700"
+                data-aos="fade-left" data-aos-delay="300" animation-duration="1000">
+                <p class="text-2xl lg:text-4xl font-bold">6+</p>
+                <p class="text-xs lg:px-20 mt-3 ">Year of Dedicated Service </p>
+            </div>
+
+            <!-- Kolom 5: Gambar Besar -->
+            <div class="bg-[#142F32] rounded-2xl shadow-lg col-span-1 h-[120px] lg:h-[400px]
+            flex flex-col justify-end" data-aos="fade-left" data-aos-delay="0" animation-duration="1000">
+                <p class="text-white p-7">Achieve Optimal Efficiency and Boost Productivit</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- isi -->
+    <div class="container mx-auto bg-[#142F32] pt-20 pb-25  max-w-full ">
+        <section class="mt-0 ">
+            <h2 class="text-2xl lg:text-4xl text-bold text-white text-center " data-aos="zoom-in"
+                data-aos-duration="1000">Efficient and Integrated</h2>
+            <h2 class="text-2xl lg:text-4xl text-bold text-white text-center" data-aos="zoom-in" data-aos-duration="1000"> Manufacturing Service</h2>
+            <p class="text-xs text-center text-slate-400 pt-4 lg:text-sm pb-10 " data-aos="zoom-in"
+                data-aos-duration="1000">Simply operation with our efficient
+                quality-focused service</p>
+        </section>
+
+        <!-- Grid kolom -->
+        <div class="grid grid-cols-1 lg:grid lg:grid-cols-3 lg:gap-8 gap-3 lg:w-[1000px] lg:h-[400px] items-stretch mx-auto w-[85%]"
+            data-aos="fade-right" data-aos-duration="1000">
+            <!-- Box 1 -->
+            <div class="flex flex-col rounded-xl text-white p-6 bg-white/5  h-full w-full">
+                <div class="flex flex-row justify-between">
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M192 32c17.7 0 32 14.3 32 32l0 135.5 111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5 224 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5 160 64c0-17.7 14.3-32 32-32z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-auto">
+                    <h4 class="font-semibold pb-2">Production and Assembly</h4>
+                    <p class="text-xs text-slate-400 ">Details on production processes, assembly, capacity, and product
+                        types.</p>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="flex flex-col rounded-xl text-white p-6 bg-white/5  h-full w-full">
+                <div class="flex flex-row justify-between">
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M192 32c17.7 0 32 14.3 32 32l0 135.5 111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5 224 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5 160 64c0-17.7 14.3-32 32-32z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-auto">
+                    <h4 class="font-semibold pb-2">Production and Assembly</h4>
+                    <p class="text-xs text-slate-400 ">Details on production processes, assembly, capacity, and product
+                        types.</p>
+                </div>
+            </div>
+
+            <!-- box 3 -->
+            <div class="flex flex-col rounded-xl text-white p-6 bg-white/5  h-full w-full">
+                <div class="flex flex-row justify-between">
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M192 32c17.7 0 32 14.3 32 32l0 135.5 111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5 224 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5 160 64c0-17.7 14.3-32 32-32z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-auto">
+                    <h4 class="font-semibold pb-2">Production and Assembly</h4>
+                    <p class="text-xs text-slate-400 ">Details on production processes, assembly, capacity, and product
+                        types.</p>
+                </div>
+            </div>
+
+            <!-- box 4 -->
+            <div class="flex flex-col rounded-xl text-white p-6 bg-white/5  h-full w-full">
+                <div class="flex flex-row justify-between">
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M192 32c17.7 0 32 14.3 32 32l0 135.5 111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5 224 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5 160 64c0-17.7 14.3-32 32-32z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-auto">
+                    <h4 class="font-semibold pb-2">Production and Assembly</h4>
+                    <p class="text-xs text-slate-400 ">Details on production processes, assembly, capacity, and product
+                        types.</p>
+                </div>
+            </div>
+
+            <!-- box 5 -->
+            <div class="flex flex-col rounded-xl text-white p-6 bg-white/5  h-full w-full">
+                <div class="flex flex-row justify-between">
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M192 32c17.7 0 32 14.3 32 32l0 135.5 111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5 224 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5 160 64c0-17.7 14.3-32 32-32z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-auto">
+                    <h4 class="font-semibold pb-2">Production and Assembly</h4>
+                    <p class="text-xs text-slate-400 ">Details on production processes, assembly, capacity, and product
+                        types.</p>
+                </div>
+            </div>
+
+            <!-- box 6 -->
+            <div class="flex flex-col rounded-xl text-white p-6 bg-white/5  h-full w-full">
+                <div class="flex flex-row justify-between">
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M192 32c17.7 0 32 14.3 32 32l0 135.5 111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5 224 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5 160 64c0-17.7 14.3-32 32-32z" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg class="scale-[0.8]" width="25" fill="white" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-auto">
+                    <h4 class="font-semibold pb-2">Production and Assembly</h4>
+                    <p class="text-xs text-slate-400 ">Details on production processes, assembly, capacity, and product
+                        types.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section  Key benefit-->
+    <section class="pb-32 pt-20 bg-white mx-20">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap justify-center items-center">
+
+                <div class="lg:w-1/2 flex mx-auto justify-center items-center" data-aos="fade-right"
+                    data-aos-duration="1000">
+                    <div class="w-85 h-85 lg:w-120 lg:h-120 bg-gray-100 rounded-xl flex items-center justify-center ">
+                        <div class="w-70 h-70 lg:w-85 lg:h-90 bg-white rounded-lg shadow-xl relative">
+                            <div class="lg:m-4 m-2 ">
+                                <p class="text-sm  lg:text-lg text-slate-400 font-medium">Total Projects</p>
+                                <div class="flex mt-2 items-center">
+                                    <p class="text-sm lg:text-xl font-semibold pr-3 ">1475</p>
+                                    <p class="pr-2 ">💹</p>
+                                    <p class="text-sm  lg:text-base text-green-600 ">34%</p>
+                                </div>
+                            </div>
+
+                            <hr class="my-2 lg:my-5 text-slate-100 ">
+
+                            <!-- Progrest -->
+                            <div class="lg: mx-4 lg:text-sm text-xs">
+                                <div class="text-slate-400 flex justify-between mb-3 items-center">
+                                    <div class="flex items-center">
+                                        <p class="mr-9">Finished</p>
+                                        <div class="lg:w-35 w-30  h-4 bg-slate-200 rounded-xs"></div>
+                                    </div>
+                                    <p class="font-semibold text-black ">10% </p>
+                                </div>
+
+                                <div class="text-slate-400 flex justify-between mb-3 items-center">
+                                    <div class="flex items-center">
+                                        <p class="lg:mr-5 mr-5  ">In Progress</p>
+                                        <div class="lg:w-40 w-35 h-4 bg-slate-200 rounded-xs"></div>
+                                    </div>
+                                    <p class="font-semibold text-black ">13% </p>
+                                </div>
+
+                                <div class="text-slate-400 flex justify-between mb-3 items-center">
+                                    <div class="flex items-center">
+                                        <p class="mr-9">Rejected </p>
+                                        <div class="lg:w-36 w-33  h-4 bg-slate-200 rounded-xs"></div>
+                                    </div>
+                                    <p class="font-semibold text-black ">11% </p>
+                                </div>
+
+                            </div>
+
+                            <hr class="my-2 lg:my-4 text-slate-100 ">
+
+                            <div class="h-4 w-50 bg-slate-200 rounded-xs mx-4 mb-4 "> </div>
+
+                            <hr class="text-slate-100 ">
+
+                            <!-- Grap bar  -->
+                            <div class="flex mx-4 items-end gap-3 ">
+                                <div class="h-17 w-5 bg-green-950 rounded-sm"></div>
+
+                                <div class="h-15 w-5 bg-green-400 rounded-sm"></div>
+
+                                <div class="h-10 w-5 bg-green-950 rounded-sm"></div>
+
+                                <div class="h-16 w-5 bg-green-400 rounded-sm"></div>
+
+                                <div class="h-17 w-5 bg-green-950 rounded-sm"></div>
+
+                            </div>
+
+                            <!-- kotak kecil -->
+                            <div
+                                class="w-35 h-30 lg:w-55 lg:h-45 bg-white rounded-lg lg:rounded-2xl shadow-2xl absolute -bottom-4  lg:-bottom-8 -right-5  lg:-right-10 border border-slate-200 lg:flex lg:flex-col lg:justify-around">
+                                <div class="flex justify-between lg:m-1 lg:p-3 p-2 ">
+                                    <a class="text-xs lg:text-base" href="">🔳</a>
+                                    <a class="text-xs lg:text-base" href="">💬</a>
+                                </div>
+
+                                <div class="lg:px-4 px-2">
+                                    <h3 class="text-xs lg:text-base ">Total Projects 💹 <span
+                                            class="text-green-500 text-xs">8%</span> </h3>
+                                </div>
+
+                                <div>
+                                    <p class="text-lg lg:text-3xl font-semibold lg:px-4 px-2 lg:pt-2 ">
+                                        1951+
+                                    </p>
+
+                                    <p class="p-2 lg:p-4 text-xs text-slate-400">Increase of <span
+                                            class="text-green-400">126</span> this month</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 mt-10 lg:mt-0">
+                    <div class="lg:w-3/4" data-aos="fade-left" data-aos-duration="1000">
+                        <h2 class="font-bold text-3xl lg:text-4xl pb-7 text-center lg:text-left">Key Benefits of Our
+                            System
+                            for Your Business
+                            Efficently </h2>
+                        <p class="text-xs lg:text-base text-slate-400 text-center lg:text-left ">Our systems boost
+                            productivity, cut costs, and drive
+                            business growth.</p>
+
+                        <div>
+                            <h3 class="pt-10 font-bold">✔ Boosting Quality with Text</h3>
+                            <p class="text-base pt-2 text-slate-400">With advanced technology, we help you achieve top
+                                product quality. Discover how we can enhance your standards.</p>
+                        </div>
+
+                        <div>
+                            <h3 class="pt-3 font-bold">✔ Boosting Quality with Text</h3>
+                            <p class="text-base pt-2 text-slate-400">With advanced technology, we help you achieve top
+                                product quality. Discover how we can enhance your standards.</p>
+                        </div>
+
+                        <div>
+                            <h3 class="pt-3 font-bold">✔ Boosting Quality with Text</h3>
+                            <p class="text-base pt-2 text-slate-400">With advanced technology, we help you achieve top
+                                product quality. Discover how we can enhance your standards.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Plan -->
+    <section class="pb-30 pt-20 bg-black max-w-full">
+        <div class="contianer">
+            <!-- Header -->
+            <div class="mx-auto text-white text-center">
+                <h2 class="text-2xl lg:text-4xl font-semibold">Tailored Plans for Your</h2>
+                <h2 class="text-2xl lg:text-4xl pt-1 font-semibold">Manufacturing Scale</h2>
+                <p class="text-sm lg:text-base pt-5 text-slate-400 ">Flexible Pricing for any business size</p>
+            </div>
+
+            <!-- Price Plan  -->
+            <div class="px-4 flex flex-wrap mt-15 mx-auto items-center justify-center gap-7">
+
+                <!-- Plan 1 -->
+                <div class="lg:w-100 lg:h-110 bg-white/15 rounded-2xl" >
+                    <div class="text-white p-6">
+                        <h3 class="text-2xl">Starter</h3>
+                        <p class="text-sm text-slate-300 mt-2">This package offers the basic featurees you need to get
+                            started.</p>
+
+                        <h2 class="text-3xl font-semibold mt-5">$39 <span class="text-sm text-slate-300"> / month</span>
+                        </h2>
+
+                        <!-- button -->
+                        <div
+                            class="mt-4 text-center w-80% h-10 border-1  items-center justify-center flex rounded-full">
+                            <a href="" class="p-5">Get Started</a>
+                        </div>
+
+                        <!-- garis -->
+                        <div class="flex items-center gap-5 mt-6 text-slate-400 text-sm w-[80%] mx-auto">
+                            <div class="flex-1 border-t"></div>
+                            <div>Features</div>
+                            <div class="flex-1 border-t"></div>
+                        </div>
+
+                        <div class="mt-5 flex flex-col gap-2 text-slate-300">
+                            <p>✔ Production up to 10,000 units per month </p>
+                            <p>✔ 24/7 technical supoort </p>
+                            <p>✔ Acces the production Dashboard </p>
+                            <p>✔ Initial Setup guide </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- plan 2 -->
+                <div class="w-100 h-110 bg-white/15 rounded-2xl" >
+                    <div class="text-white p-6">
+                        <h3 class="text-2xl">Starter</h3>
+                        <p class="text-sm text-slate-300 mt-2">This package offers the basic featurees you need to get
+                            started.</p>
+
+                        <h2 class="text-3xl font-semibold mt-5">$39 <span class="text-sm text-slate-300"> / month</span>
+                        </h2>
+
+                        <!-- button -->
+                        <div
+                            class="mt-4 text-center w-80% h-10 border-1  items-center justify-center flex rounded-full">
+                            <a href="" class="p-5">Get Started</a>
+                        </div>
+
+                        <!-- garis -->
+                        <div class="flex items-center gap-5 mt-6 text-slate-400 text-sm w-[80%] mx-auto">
+                            <div class="flex-1 border-t"></div>
+                            <div>Features</div>
+                            <div class="flex-1 border-t"></div>
+                        </div>
+
+                        <div class="mt-5 flex flex-col gap-2 text-slate-300">
+                            <p>✔ Production up to 10,000 units per month </p>
+                            <p>✔ 24/7 technical supoort </p>
+                            <p>✔ Acces the production Dashboard </p>
+                            <p>✔ Initial Setup guide </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- profesional -->
+            <div class="mt-10 items-center justify-center flex">
+                <div class="h-70 w-[90%]  lg:h-70 lg:w-210 bg-blue-900 rounded-3xl text-center">
+                    <h3 class="mt-10 text-2xl text-white font-sm">Professional</h3>
+                    <p class="mt-5 text-slate-300">Designed for greater flexibility, this solution offers</p>
+                    <p class="text-slate-300 mb-7">advanced tools for custom tailoring to your needs.</p>
+                    <button class="w-35 h-10 bg-white rounded-full flex items-center justify-center mx-auto"> Get
+                        Started</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Top Compeny -->
+    <section class="pb-25 pt-20 bg-white max-w-full">
+        <div class="container flex flex-wrap mx-auto">
+            <div class="flex flex-wrap w-full lg:w-1/2 items-center justify-center">
+                <div class="px-17">
+                    <h2 class="text-3xl lg:text-left lg:text-5xl font-semibold lg:leading-15">Empowering Top Componies
+                        with
+                        Seamless Integrations</h2>
+
+                    <p class="mt-8 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                        consequatur error commodi, assumenda cum illum explicabo quidem nostrum voluptas numquam
+                        blanditiis, totam sapiente asperiores dolorum maiores perferendis mollitia reiciendis est.</p>
+                    <button class="mt-10 h-13 w-35 bg-green-200 rounded-full font-sm ">
+                        Work With Us
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="flex flex-wrap lg:w-1/2 items-center justify-center mt-10">
+                <div class="bg-white rounded-xl">
+                    <img src="src/img/buletan.png" alt="" class="rounded-xl lg:w-120 lg:h-100 w-[90%] mx-auto ">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Section Idea -->
+    <section class="pb-20 pt-20 bg-[#142F32]">
+        <div class="container max-w-full">
+            <div class="text-center text-white flex flex-col  justify-center items-center pt-5 ">
+                <h2 class="text-2xl lg:text-4xl font-semibold">From Idea to Production Days</h2>
+                <p class="text-slate-400 mt-5 lg:mt-10 text-sm ">Accelerate your production with our technology. Reduce
+                </p>
+                <p class="text-slate-400 text-sm ">donwtime and optimize coast. get a special offer now!.</p>
+                <button class="mt-10 h-13 w-35 bg-white rounded-full font-semibold text-[#142F32] ">
+                    Work With Us
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="pb-10 pt-20 bg-black">
+        <div class="container max-w-full text-white flex flex-wrap px-7 ">
+            <!-- Our Company -->
+            <div class="lg:w-2/6 w-full lg:px-10">
+                <div class="flex lg:items-center gap-3 ">
+                    <img class="w-10 h-10 " src="src/img/1.jpg" alt="">
+                    <p class="text-2xl">Proadmast</p>
+                </div>
+
+                <p class="mt-4 lg:mt-8 text-slate-400 mb-5">Our solution make Production fasther and cheaper. Contact us
+                    for
+                    more information.</p>
+            </div>
+
+            <!-- Company -->
+            <div class="lg:w-1/6 flex flex-col w-full">
+                <h2 class="text-2xl ">Company</h2>
+                <!-- isi -->
+                <div class="mt-2 lg:mt-10 flex flex-col gap-2 text-slate-400 mb-5">
+                    <a href="#">About Us</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Newsroam</a>
+                    <a href="#">Events</a>
+                </div>
+            </div>
+
+            <!-- Industries -->
+            <div class="lg:w-1/6 flex flex-col w-full ">
+                <h2 class="text-2xl ">Industries</h2>
+                <!-- isi -->
+                <div class="mt-2 lg:mt-10 flex flex-col gap-2 text-slate-400 mb-6">
+                    <a href="#">About Us</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Newsroam</a>
+                    <a href="#">Events</a>
+                </div>
+            </div>
+
+            <!-- Productions -->
+            <div class="w-full lg:w-1/6 flex flex-col">
+                <h2 class="text-2xl ">Products</h2>
+                <!-- isi -->
+                <div class="mt-2  lg:mt-10 flex flex-col gap-2 text-slate-400 mb-6 ">
+                    <a href="#">About Us</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Newsroam</a>
+                    <a href="#">Events</a>
+                </div>
+            </div>
+
+            <!-- Touch -->
+            <div class="w-full lg:w-1/6 flex flex-col">
+                <h2 class="text-2xl ">Get in Touch</h2>
+                <!-- isi -->
+                <div class="mt-2 lg:mt-10 flex flex-col gap-2 text-slate-400">
+                    <a href="#">hallo@prodmast.com</a>
+                    <!-- Sosmed -->
+                    <div class="flex mt-2">
+                        <!-- Instagram -->
+                        <a href="#" target="_blank"
+                            class="bg-white/20 w-9 h-9 mr-3 rounded-lg flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white transition ease-in-out duration-300">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path
+                                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                            </svg>
+                        </a>
+
+                        <!-- Github -->
+                        <a href="#" target="_blank"
+                            class="bg-white/20 w-9 h-9 mr-3 rounded-lg flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white transition ease-in-out duration-300">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                        </a>
+
+                        <!-- Linkedin -->
+                        <a href="#" target="_blank"
+                            class="bg-white/20 w-9 h-9 mr-3 rounded-lg flex justify-center items-center border border-slate-300 text-slate-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white transition ease-in-out duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="100"
+                                class="fill-current" viewBox="0 0 50 50">
+                                <path
+                                    d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- garis -->
+            <div class="my-6  lg:my-15 w-[95%] mx-auto">
+                <hr class="text-slate-800 ">
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="flex flex-wrap justify-between px-7 lg:px-20 text-slate-400 gap-3">
+            <p>© 2024 Proadmast. All rights reserved</p>
+            <div class="flex flex-col lg:flex-row lg:gap-10 gap-3">
+                <p>Terms & Conditions </p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600,
+            easing: 'ease-out',
+        });
+    </script>
+
+</body>
+
+</html>
